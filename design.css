@@ -1,0 +1,95 @@
+.cation {
+  display: inline-block;
+  background: black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+   background: radial-gradient(circle at 20px 20px, #5cabff, #000);
+  position:relative;
+   top:10px;
+
+}
+
+.anion {
+  display: inline-block;
+  background: black;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+   background: radial-gradient(circle at 30px 30px, #ff5c5c, #000);
+   position: relative;
+}
+
+h1{
+	font-size: 75px;
+	font-family: "Fugaz One",italic;
+	color: #FFF;
+	text-align: center;
+}
+h2{
+	font-size: 40px;
+	font-family: "Fugaz One",italic;
+	color: #FFF;
+}
+p{
+	font-size: 18px;
+	font-family: "Space Mono",monospace;
+  color:#FFF;
+}
+ul{
+	font-size: 18px;
+	font-family: "Space Mono",monospace;
+  color:#FFF;
+}
+.acid{
+display: inline-block;
+  background: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0;
+   background: radial-gradient(circle at 10px 10px,#9400ff, #000);
+   position:relative;
+   top:10px;
+}
+table{
+	font-size: 18px;
+	font-family: "Space Mono",monospace; 
+  color: #FFF;
+}
+figure:hover{
+	 -webkit-animation: bounce 0.75s infinite;
+
+}
+.alkali{
+display: inline-block;
+  background: black;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 0;
+   background: radial-gradient(circle at 30px 30px,#9400ff, #000);
+   position:relative;
+   top:10px;
+}
+.water{
+display: inline-block;
+  background: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0;
+   background: radial-gradient(circle at 30px 30px,#00bbff, #000);
+   position:relative;
+   top:10px;
+}
+
+td{
+	text-align: center; 
+ }
+
+.black{
+	background-color:black;
+}

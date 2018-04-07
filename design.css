@@ -5,7 +5,7 @@
   height: 40px;
   width: 40px;
   margin: 0;
-   background: radial-gradient(circle at 20px 20px, #5cabff, #000);
+   background: radial-gradient(circle at 10px 20px, #6ACE10, #000);
   position:relative;
    top:10px;
 
@@ -18,22 +18,23 @@
   height: 60px;
   width: 60px;
   margin: 0;
-   background: radial-gradient(circle at 30px 30px, #ff5c5c, #000);
+   background: radial-gradient(circle at 20px 30px, #7F44CE, #000);
    position: relative;
+   top:8px;
 }
 
-h1{
+section#text h1{
 	font-size: 75px;
 	font-family: "Fugaz One",italic;
 	color: #FFF;
-	text-align: center;
+
 }
-h2{
+section#text h2{
 	font-size: 40px;
 	font-family: "Fugaz One",italic;
 	color: #FFF;
 }
-p{
+section#text p{
 	font-size: 18px;
 	font-family: "Space Mono",monospace;
   color:#FFF;
@@ -50,7 +51,7 @@ display: inline-block;
   height: 50px;
   width: 50px;
   margin: 0;
-   background: radial-gradient(circle at 10px 10px,#9400ff, #000);
+   background: radial-gradient(circle at 20px 30px,#ED462F, #000);
    position:relative;
    top:10px;
 }
@@ -70,7 +71,7 @@ display: inline-block;
   height: 70px;
   width: 70px;
   margin: 0;
-   background: radial-gradient(circle at 30px 30px,#9400ff, #000);
+   background: radial-gradient(circle at 30px 40px,#E376C4, #000);
    position:relative;
    top:10px;
 }
@@ -81,15 +82,16 @@ display: inline-block;
   height: 50px;
   width: 50px;
   margin: 0;
-   background: radial-gradient(circle at 30px 30px,#00bbff, #000);
+   background: radial-gradient(circle at 20px 30px,#6EF5DE, #000);
    position:relative;
-   top:10px;
+   top:6px;
 }
 
-td{
-	text-align: center; 
- }
 
-.black{
-	background-color:black;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:300px;
 }
